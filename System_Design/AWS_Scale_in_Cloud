@@ -1,0 +1,25 @@
+Scale on the Cloud
+Many of today’s large scale concurrent systems rely on cloud computing platforms such as AWS or Google Cloud.
+
+Describe how would you design a service using a common cloud computing platform such as AWS, to scale incrementally from supporting hundreds of users to millions of users.
+
+For the purpose of the interview, assume the system generally receives user requests, does some processing, stores user data, and returns the results.
+
+
+Answer:
+Based on our guide (link: https://blog.pramp.com/the-complete-system-design-interviewer-guide-e5d273724db8)
+Here’s a brief reminder of the recommended interview structure, based on our System Design Interviewer guide:
+
+Establish the feature scope and constraints
+Describe high-level architecture
+Drill Down: design and scale core components
+Scaling the design
+Tradeoffs and future improvements
+Make sure to focus on the most challenging aspects of this specific question, and not spend too much time on trivial issues. Some questions have a more challenging API design, while other questions are worth focusing on the load and network architecture.
+
+There’s no single correct answer to a real-world problem; everything is a trade-off. Your goal as an interviewer is to understand how the candidate makes decisions, rather than getting them to focus on one subject or come to a particular conclusion.
+
+Remember that system design interview questions are open ended by nature, so make sure to choose a specific subset of the system you feel most comfortable with, to drill down with your peer as an interviewer.
+
+Review this article to learn about the use cases, high level design, 
+core components and scale of a system that supports millions of users using a cloud provider: https://github.com/donnemartin/system-design-primer/tree/master/solutions/system_design/scaling_aws#design-a-system-that-scales-to-millions-of-users-on-aws
